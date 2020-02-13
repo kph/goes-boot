@@ -76,10 +76,8 @@ import (
 )
 
 var Goes = &goes.Goes{
-	NAME: name,
-	APROPOS: lang.Alt{
-		lang.EnUS: "the coreboot goes machine",
-	},
+	NAME:    name,
+	APROPOS: Apropos,
 	ByName: map[string]cmd.Cmd{
 		"!":        bang.Command{},
 		"cli":      &cli.Command{},

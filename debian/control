@@ -1,15 +1,22 @@
-Source: goes-boot-mk1
+Source: goes-boot
 Section: unknown
 Priority: optional
 Maintainer: Kevin Paul Herbert <kph@platinasystems.com>
-Build-Depends: debhelper-compat (= 12)
-Standards-Version: 4.4.0
+Build-Depends: debhelper (>=10), goes-build
+Standards-Version: 3.9.8
 Homepage: <insert the upstream URL, if relevant>
 #Vcs-Browser: https://salsa.debian.org/debian/goes-boot-mk1
 #Vcs-Git: https://salsa.debian.org/debian/goes-boot-mk1.git
 
-Package: goes-boot-mk1
+Package: goes-boot-example-amd64
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
+
+Package: goes-boot-mk1
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, flashrom-platina
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+

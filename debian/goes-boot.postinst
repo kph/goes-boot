@@ -20,6 +20,9 @@ set -e
 
 case "$1" in
     configure)
+	flashrom -p internal -l /usr/share/flashrom/layouts/platina-mk1.xml \
+		 -i bios -w /usr/share/goes-boot/coreboot-platina-mk1.rom \
+		 --noverify-all
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)

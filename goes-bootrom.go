@@ -7,8 +7,6 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/platinasystems/goes"
 	"github.com/platinasystems/goes-boot/cmd/recoveryd"
 	"github.com/platinasystems/goes/cmd"
@@ -45,8 +43,6 @@ import (
 	"github.com/platinasystems/goes/cmd/umount"
 	"github.com/platinasystems/goes/cmd/wget"
 	"github.com/platinasystems/goes/lang"
-
-	"github.com/platinasystems/ioport"
 )
 
 const Machine machine = "goes-bootrom"
@@ -101,17 +97,4 @@ var Goes = &goes.Goes{
 		"umount":    umount.Command{},
 		"wget":      wget.Command{},
 	},
-}
-
-func disableBootdog() (err error) {
-	b, err := ioport.Inb(0x604)
-	if err != nil {
-		return fmt.Errorf("Error in Inb(0x604): %s", err)
-	}
-	b = b & 0xfd
-	err = ioport.Outb(0x604, b)
-	if err != nil {
-		return fmt.Errorf("Error in Outb(0x604, %x): %s", b, err)
-	}
-	return
 }

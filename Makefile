@@ -1,5 +1,5 @@
 goes-boot:
-	env -u CPPFLAGS goes-build -x -z -v coreboot-platina-mk1.rom coreboot-example-amd64.rom goes-boot goes-boot-platina-mk1
+	env -u CFLAGS -u CPPFLAGS -u CXXFLAGS goes-build -x -z -v coreboot-platina-mk1.rom coreboot-example-amd64.rom goes-boot goes-boot-platina-mk1
 
 install:
 #	$(INSTALL) -m 0644 -d $(DESTDIR)/boot/goes

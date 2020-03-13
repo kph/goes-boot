@@ -16,7 +16,7 @@ Description: <insert up to 60 chars description>
 
 Package: goes-boot-mk1
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, flashrom-platina
+Depends: ${shlibs:Depends}, ${misc:Depends}, flashrom-platina, dmidecode
 Description: <insert up to 60 chars description>
  <insert long description, indented with spaces>
 

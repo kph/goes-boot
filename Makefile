@@ -10,6 +10,6 @@ clean:
 	rm -rf debian/.debhelper debian/goes-boot-mk1 debian/goes-boot-example-amd64
 
 binpkg-deb:
-	debuild -i -I -Iworktrees
+	debuild -i -I -Iworktrees --lintian-opts --profile debian
 
 .PHONY: goes-boot install binpkg-deb clean

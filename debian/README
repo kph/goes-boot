@@ -1,6 +1,6 @@
-The Debian Package goes-boot-mk1
+The Debian Package goes-boot
 ----------------------------
 
-Comments regarding the Package
 
- -- Kevin Paul Herbert <kph@platinasystems.com>  Wed, 12 Feb 2020 14:26:12 -0700
+ -- Kevin Paul Herbert <kph@platinasystems.com>  Thu, 19 Mar 2020 17:58:00 -0600
+	First pass at packaging goes-boot into a Debian package.

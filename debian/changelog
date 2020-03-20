@@ -1,11 +1,5 @@
-goes-boot (1.3~alpha.1) unstable; urgency=medium
-
-  * Update to coreboot 4.11
-
- -- Kevin Paul Herbert <kph@platinasystems.com>  Thu, 27 Feb 2020 11:27:00 -0700
-
-goes-boot (1.3~alpha.0) unstable; urgency=medium
+goes-boot (2.0~alpha.0) stretch; urgency=medium
 
   * Initial Release.
 
- -- Kevin Paul Herbert <kph@platinasystems.com>  Wed, 12 Feb 2020 14:26:12 -0700
+ -- Kevin Paul Herbert <kph@platinasystems.com>  Thu, 19 Mar 2020 15:45:00 -0600

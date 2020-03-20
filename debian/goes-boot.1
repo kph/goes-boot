@@ -4,7 +4,7 @@
 .\" First parameter, NAME, should be all caps
 .\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
 .\" other parameters are allowed: see man(7), man(1)
-.TH Goes-boot-mk1 SECTION "February 12 2020"
+.TH GOES-BOOT 1 "March 19, 2020"
 .\" Please adjust this date whenever revising the manpage.
 .\"
 .\" Some roff macros, for reference:
@@ -18,39 +18,17 @@
 .\" .sp <n>    insert n+1 empty lines
 .\" for manpage-specific macros, see man(7)
 .SH NAME
-goes-boot-mk1 \- program to do something
+goes-boot \- Bootloader for Platina Systems
 .SH SYNOPSIS
-.B goes-boot-mk1
-.RI [ options ] " files" ...
-.br
-.B bar
-.RI [ options ] " files" ...
+.B goes-boot
 .SH DESCRIPTION
 This manual page documents briefly the
-.B goes-boot-mk1
-and
-.B bar
-commands.
+.B goes-boot
+program.
 .PP
 .\" TeX users may be more comfortable with the \fB<whatever>\fP and
 .\" \fI<whatever>\fP escape sequences to invode bold face and italics,
 .\" respectively.
-\fBgoes-boot-mk1\fP is a program that...
-.SH OPTIONS
-These programs follow the usual GNU command line syntax, with long
-options starting with two dashes (`-').
-A summary of options is included below.
-For a complete description, see the Info files.
-.TP
-.B \-h, \-\-help
-Show summary of options.
-.TP
-.B \-v, \-\-version
-Show version of program.
-.SH SEE ALSO
-.BR bar (1),
-.BR baz (1).
-.br
-The programs are documented fully by
-.IR "The Rise and Fall of a Fooish Bar" ,
-available via the Info system.
+\fBgoes-boot\fP is a program that loads the operating system on Platina
+Systems products. It is stored in the x86 boot ROM as well as
+\fB/boot/goes\fP.

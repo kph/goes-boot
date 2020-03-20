@@ -39,7 +39,6 @@ import (
 	"github.com/platinasystems/goes/cmd/iocmd"
 	"github.com/platinasystems/goes/cmd/ip"
 	"github.com/platinasystems/goes/cmd/kexec"
-	"github.com/platinasystems/goes/cmd/keys"
 	"github.com/platinasystems/goes/cmd/kill"
 	"github.com/platinasystems/goes/cmd/ln"
 	"github.com/platinasystems/goes/cmd/log"
@@ -113,7 +112,6 @@ var Goes = &goes.Goes{
 		"io":     iocmd.Command{},
 		"ip":     ip.Goes,
 		"kexec":  &kexec.Command{},
-		"keys":   keys.Command{},
 		"kill":   kill.Command{},
 		"ln":     ln.Command{},
 		"log":    log.Command{},

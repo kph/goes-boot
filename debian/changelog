@@ -1,3 +1,11 @@
+goes-boot (2.1.4~alpha.2) stretch; urgency=medium
+
+  * coreboot: Add links and link-count properties
+  * linux: Add i2c/SMBUS/GPIO so that toggle command can work
+  * goes-boot: Add toggle command
+
+ -- Kevin Paul Herbert <kph@platinasystems.com>  Mon, 15 Mar 2021 10:58:02 -0700
+
 goes-boot (2.1.4~alpha.1) stretch; urgency=medium
 
   * goes-boot: Set dev->enabled to false on I2C write failure

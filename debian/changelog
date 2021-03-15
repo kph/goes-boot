@@ -1,3 +1,9 @@
+goes-boot (2.1.4~alpha.3) stretch; urgency=medium
+
+  * coreboot: Add onie-i2c-addr property
+
+ -- Kevin Paul Herbert <kph@platinasystems.com>  Mon, 15 Mar 2021 16:36:06 -0700
+
 goes-boot (2.1.4~alpha.2) stretch; urgency=medium
 
   * coreboot: Add links and link-count properties

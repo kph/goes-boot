@@ -1,8 +1,18 @@
-goes-boot (2.2.0) stretch; urgency=medium
+goes-boot (2.1.4~alpha.1) stretch; urgency=medium
 
-  * goes-boot: Update kernel to v5.4.97
+  * goes-boot: Set dev->enabled to false on I2C write failure
 
- -- Kevin Paul Herbert <kph@platinasystems.com>  Thu, 11 Feb 2021 15:54:16 -0700
+ -- Kevin Paul Herbert <kph@platinasystems.com>  Tue, 09 Mar 2021 15:03:01 -0700
+
+goes-boot (2.1.4~alpha.0) stretch; urgency=medium
+
+  * goes-boot: Add probing of ONIE EEPROM
+  * goes-boot: Add XETH devices with compatible property platina,mk1
+  * goes-boot: Add base-port property integer 0 or 1
+  * goes-boot: Add absent-gpios, int-gpios, lpmode-gpios, and reset-gpios
+  * goes-boot: Experimentally set i2c-mux-idle-disconnect
+
+ -- Kevin Paul Herbert <kph@platinasystems.com>  Sat, 06 Mar 2021 15:58:39 -0700
 
 goes-boot (2.1.3) stretch; urgency=medium
 

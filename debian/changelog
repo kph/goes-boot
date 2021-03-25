@@ -1,3 +1,10 @@
+goes-boot (2.1.4~alpha.4) stretch; urgency=medium
+
+  * coreboot: Replace onie-i2c-addr property with qsfp-i2c-addrs
+  * coreboot: Add link-mac-addresses propertyty
+
+ -- Kevin Paul Herbert <kph@platinasystems.com>  Wed, 24 Mar 2021 15:31:01 -0700
+
 goes-boot (2.1.4~alpha.3) stretch; urgency=medium
 
   * coreboot: Add onie-i2c-addr property
